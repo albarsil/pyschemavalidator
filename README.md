@@ -1,5 +1,12 @@
 # pyschemavalidator
 
+https://pypi.org/project/pyschemavalidator/
+
+[![Actions Status](https://github.com/albarsil/pyschemavalidator/workflows/Tests/badge.svg?branch=master)](https://github.com/albarsil/pyschemavalidator/actions/workflows/tests.yml)
+[![PyPI](https://img.shields.io/pypi/v/pyschemavalidator?color=g)](https://pypi.org/project/pyschemavalidator/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/albarsil/pyschemavalidator.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/albarsil/pyschemavalidator/context:python)
+[![License](https://img.shields.io/badge/license-MIT-purple)](https://github.com/albarsil/pyschemavalidator/blob/master/LICENSE)
+
 This package contains a decorator for endpoints in flask and a way to validate dictionary/JSON elements. 
 It omits the need to validate the data yourself and allow its usage by other kinds of APIs like graphql through the `UniversalValidator`.
 
