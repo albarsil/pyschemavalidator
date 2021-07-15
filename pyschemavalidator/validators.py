@@ -46,7 +46,7 @@ class UniversalValidator(object):
             if (constrain != None) & (keytype not in (str, int, bool)):
                 raise ValueError("Constrain value should be set just if keytype is str, int or bool")
 
-        self._validations[key] = Parameter(
+        self._validations[key] = BaseParameter(
             key = key,
             keytype = keytype,
             innertype = innertype,
