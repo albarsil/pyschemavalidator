@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='pyschemavalidator',
-    version='1.0.3',
+    version='1.0.4',
     description='Decorator for endpoint inputs on APIs and a dictionary/JSON validator.',
     long_description=readme(),
     long_description_content_type="text/markdown",

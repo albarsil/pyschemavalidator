@@ -94,6 +94,8 @@ Tests can be run with `python setup.py test` when the virtualenv is active.
 
 # Changelog
 
+1.0.4 - Removed support to Python 2.7
+
 1.0.3 - Fix description and README
 
 1.0.2 - Fix the missing required parameter issue
